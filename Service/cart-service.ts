@@ -5,5 +5,5 @@ import { Injectable } from '@angular/core';
 })
 export class CartService {
   cart = 0;
-  
+                     //try to add all the functions here it self dont do it in every component
 }
