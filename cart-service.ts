@@ -1,0 +1,9 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({// this injectable decorator tells angular this is service and u need to create obj for it
+  providedIn: 'root',
+})
+export class CartService {
+  cart = 0;
+  
+}
