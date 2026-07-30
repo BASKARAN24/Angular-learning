@@ -1,6 +1,6 @@
 //route.ts is the file routing is configured
 import { Routes } from '@angular/router';
-import { Home } from './home/home';//import all the components like home,products...
+import { Home } from './home/home';//import all the components like home,products....
 import { Products } from './products/products';
 import { About } from './about/about';
 import { Contact } from './contact/contact';
