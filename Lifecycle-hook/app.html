@@ -1,0 +1,11 @@
+<button (click)="showNamefunc()">Show name</button>
+&nbsp;
+&nbsp;
+<button (click)="changeName()">Change Name</button>
+&nbsp;
+&nbsp;
+<button (click)="removeStudent()">Remove Name</button>
+
+@if (showName) {
+  <app-student [name]="name"></app-student>
+}
